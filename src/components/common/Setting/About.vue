@@ -49,15 +49,15 @@ onMounted(() => {
           此项目开源于
           <a
             class="text-blue-600 dark:text-blue-500"
-            href="https://github.com/Chanzhaoyu/chatgpt-web"
+            href="https://www.baidu.com"
             target="_blank"
           >
-            GitHub
+            Github
           </a>
           ，免费且基于 MIT 协议，没有任何形式的付费行为！
         </p>
-        <p>
-          如果你觉得此项目对你有帮助，请在 GitHub 帮我点个 Star 或者给予一点赞助，谢谢！
+          <p>
+          当然你要是愿意打赏让咸鱼注册账号，那最好了
         </p>
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
@@ -70,6 +70,10 @@ onMounted(() => {
       <p>{{ $t("setting.timeout") }}：{{ config?.timeoutMs ?? '-' }}</p>
       <p>{{ $t("setting.socks") }}：{{ config?.socksProxy ?? '-' }}</p>
       <p>{{ $t("setting.httpsProxy") }}：{{ config?.httpsProxy ?? '-' }}</p>
+			<p>打赏账号</p>
+			<img src="https://img.juyuantop.cn/tBFuLi.jpg">
+			<p>微信群-里面有二狗子机器人接入了ChatGPT3.5</p>
+			<img src="https://img.juyuantop.cn/rbzt8c.jpg" alt="微信图片_20230502132557.jpg" title="微信图片_20230502132557.jpg" />
     </div>
   </NSpin>
 </template>
