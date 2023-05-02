@@ -481,7 +481,9 @@ onUnmounted(() => {
           <template v-if="!dataSources.length">
             <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
-              <span>Aha~</span>
+              <span style="color:red">公告：<br>支持切换GPT-4<br>生成巨慢，需要可以联系客服<br>左下角头像右边齿轮是设置，设置有配置页<br>
+							可以通过设置查看API以及余额<br>如果API：ChatGPTAPI那么就是3.5 下午偶尔会开放一小时左右GPT-4<br>左下角头像旁的设置配置页可以加群<br>
+							支持上下文、支持侧边栏多历史消息、支持角色预设（角色商店）<br>更新内容：1.GPT回复增加显示原文（回复三个.可以看到）2.不同对话框支持不同角色设定3.支持角色预设，在齿轮高级<br>新增韩语<br>AI问答以及AI绘画（地址在设置，如果有机器的话）永久免费，好心大佬可以打赏<br>发起聊天之后此公告就不会显示啦~<br>出售5美元账号，可以联系客服咨询</span>
             </div>
           </template>
           <template v-else>
