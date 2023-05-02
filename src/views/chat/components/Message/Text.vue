@@ -115,6 +115,10 @@ onUnmounted(() => {
         <span class="dark:text-white w-[4px] h-[20px] block animate-blink" />
       </template>
     </div>
+		<br>
+			<p>广告time：</p>	
+			<p style="color:red">欢迎访问个人博客<a href="https://www.juyuantop.cn" target="_blank">---我的小栈</a></p>
+			<p style="color:red"><a href="https://img.juyuantop.cn/60tB7P.jpg" target="_blank">球球大家点我扫码领外卖券叭，让我能一直运维下去</a></p>
   </div>
 </template>
 
