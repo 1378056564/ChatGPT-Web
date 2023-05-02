@@ -84,6 +84,11 @@ watch(
             {{ $t('store.siderButton') }}
           </NButton>
         </div>
+				<div class="p-4">
+          <p style="align:center;color:red">
+            广告位：联系在线客服申请
+          </p>
+        </div>
       </main>
       <Footer />
     </div>
